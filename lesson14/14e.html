@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <style>
+      .profile-picture{
+        height: 50px;
+        width: 50px;
+        object-fit: cover;
+        border-radius: 50px;
+      }
+      .header{
+        display: flex;
+        align-items: center;
+      }
+      .profile-name{
+        flex: 1;
+        margin-left: 10px;
+        font-family: Arial;
+        font-weight: bold;
+      }
+      .add-friend-button{
+        color: white;
+        background-color: rgb(7, 127, 197);
+        border: none;
+        border-radius: 4px;
+        padding: 10px 12px;
+        margin-right: 6px;
+        cursor: pointer;
+        
+      }
+      .add-friend-button:hover{
+        opacity: 0.9;
+      }
+      .add-friend-button:active{
+        opacity: 0.2;
+      }
+      .message-button{
+       background-color: rgb(223, 220, 220);
+       border: none;
+       border-radius: 4px;
+       font-weight: bold;
+       padding: 10px 12px;
+       cursor: pointer;
+      }
+      .message-button:hover{
+        opacity: 0.9;
+      }
+      .message-button:active{
+        opacity: 0.4;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <img src="dog1.jpg" class="profile-picture" >
+        <p class="profile-name">
+          Oliver dog
+        </p>
+        <button class="add-friend-button">
+          Add Friend
+        </button>
+        <button class="message-button">
+          Message
+        </button>
+    </div>
+  
+  </body>
+</html>

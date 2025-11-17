@@ -1,0 +1,33 @@
+p{
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: rgb(100, 100, 100);
+}
+.email{
+  margin-bottom: 10px;
+}
+.button-descreption{
+  
+  margin-bottom: 20px;
+}
+input{
+  width: 400px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  border-color: rgb(100, 100, 100);
+  border-style: solid;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.button{
+  text-align: center;
+  width: 400px;
+  color: white;
+  background-color: rgb(10, 102, 194);
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-radius: 20px;
+  border: none;
+  font-size: 16px;
+}

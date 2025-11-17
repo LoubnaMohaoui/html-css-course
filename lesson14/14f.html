@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <style>
+      body{
+        height: 3000px;
+        padding-left: 66px;
+      }
+      .picture{
+        width: 50px;
+        height: 50px;
+        object-fit: cover;
+        border-radius: 25px;
+        background-color: white;
+        margin-bottom: 10px;
+      }
+      .first-sidebar{
+        background-color: rgb(33, 33, 33);
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        padding-top: 18px;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      .second-sidebar{
+        background-color: rgb(55, 55, 55);
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 70px;
+        width: 150px;
+        padding-top: 18px;
+        padding-left: 15px;
+        padding-right: 15px;
+      }
+      .flexbox{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 10px;
+      }
+      .title{
+        font-family: Arial;
+        font-size: 14px;
+        color: white;
+      }
+      .create-new{
+        color: rgb(135, 135, 135);
+        font-size: 20px;
+        font-weight:700;
+      }
+      .channel1{
+        color: rgb(150, 150, 150);
+        font-family: Arial;
+        margin-bottom: 16px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="first-sidebar">
+      <div>
+        <img src="cat1.png" class="picture">
+      </div>
+      <div>
+      <img src="dog1.jpg" class="picture">
+      </div>
+      <div>
+      <img src="dog2.jpg" class="picture">
+      </div>
+    </div>
+
+    <div class="second-sidebar">
+      <div class="flexbox">
+        <div class="title">INFO</div>
+        <div><span class="create-new">&#43;</span></div>
+      </div>
+      <div class="channel1"># new-videos</div>
+      <div class="channel1"># updates</div>
+      <div class="channel1"># faq</div>
+    </div>
+    
+  </body>
+</html>

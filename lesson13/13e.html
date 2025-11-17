@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <style>
+      .container {
+        padding-top: 10px;
+        padding-bottom: 25px;
+        padding-left: 15px;
+        padding-right: 15px;
+        width: 400px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+        border-radius: 4px;
+        margin-top: 20px;
+        margin-left: 20px;
+      }
+      div{
+        font-family: Arial;
+      }
+      .header{
+       color: gray;
+      }
+      .profile-picture{
+        width: 45px;
+        height: 45px;
+        border-radius: 25px;
+        object-fit: cover;
+        margin-right: 8px;
+      }
+      
+      .content{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-top: 18px;
+      }
+      .descreption{
+        color: gray;
+        margin-top: 4px;
+      }
+      .title, .sous-title{
+        font-weight: bold;
+      }
+      .sous-title{
+        margin-top: 4px;
+      }
+      .flexbox{
+        display: flex;
+        justify-content: space-between;
+      }
+      .time{
+        color: gray;
+        font-size: 14px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+
+    <div class="header">ALL INBOXES</div>
+
+    <div class="content">
+      <img src="dog1.jpg" class="profile-picture">
+
+      <div class="details">
+        <div class="flexbox">
+        <div class="title">Chewy Promotions</div>
+        <div class="time">4:58 PM</div>
+        </div>
+        <div class="sous-title">Biggest sales of the year!</div>
+        <div class="descreption">Thank you for shopping at Best Buy, here is...</div>
+      </div>
+    </div>
+    <div class="content">
+      <img src="cat1.png" class="profile-picture">
+
+      <div class="details">
+        <div class="flexbox">
+        <div class="title">Best buy</div>
+        <div class="time">12:32 PM</div>
+        </div>
+        <div class="sous-title">Your Best Buy eReceipt</div>
+        <div class="descreption">Thank you for shopping at Best Buy, here is...</div>
+      </div>
+    </div>
+    <div class="content">
+      <img src="dog2.jpg" class="profile-picture">
+
+      <div class="details">
+        <div class="flexbox">
+        <div class="title">Netflix</div>
+        <div class="time">09:00 PM</div>
+        </div>
+        <div class="sous-title">Here's what's coming soon to Netflix</div>
+        <div class="descreption">Brand new movies and shows, old favorites...</div>
+      </div>
+    </div>
+    </div>
+   
+  </body>
+</html>

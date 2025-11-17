@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <style>
+      p{
+        font-family: Arial;
+        margin-top: 0;
+        margin-bottom: 0;
+        font-size: 16px;
+      }
+      .infos{
+        padding-left: 10px;
+        padding-right: 90px;
+      }
+      .flexbox{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+      }
+      .container{
+        display: flex;
+        flex-direction: row;
+        width: 500px;
+        background-color: lightblue;
+      }
+      .picture{
+        width: 45px;
+        height: 45px;
+        border-width: 1px;
+        border-style: solid;
+        border-color: rgb(34, 32, 32);
+        border-radius: 60px;
+        object-fit: cover;
+        margin-left: 8px;
+        margin-right: 8px;
+      }
+      .name{
+        font-weight: bold;
+      }
+      .category, .popularity{
+        color: gray;
+      }
+      .popularity{
+        font-size: 12px;
+      }
+      button{
+        color: white;
+        background-color: rgb(35, 133, 219);
+        border: none;
+        padding: 6px 10px;
+        border-radius: 4px;
+        font-weight: 550;
+        margin-right: 12px;
+      }
+      .block{
+        width: 400px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+      }
+      .mini-block{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="block">
+      <div class="flexbox">
+        <div class="mini-block">
+        <img src="images/cat1.png" class="picture">
+        <div>
+        <p class="name">oliver</p>
+        <p class="category">the cat</p>
+        <p class="popularity">Popular</p>
+        </div>
+        </div>
+        <button>Follow</button>
+      </div>
+    </div>  
+    <div class="block">
+      <div class="flexbox">
+        <div class="mini-block">
+        <img src="images/dog1.jpg" class="picture">
+        <div>
+        <p class="name">Mimi</p>
+        <p class="category">Happy dog</p>
+        <p class="popularity">Popular</p>
+        </div>
+        </div>
+        <button>Follow</button>
+      </div>
+    </div>  
+    <div class="block">
+      <div class="flexbox">
+        <div class="mini-block">
+        <img src="images/dog2.jpg" class="picture">
+        <div>
+        <p class="name">Dex</p>
+        <p class="category">the dog</p>
+        <p class="popularity">Popular</p>
+        </div>
+        </div>
+        <button>Follow</button>
+      </div>
+    </div>  
+  </body>
+</html>

@@ -1,0 +1,38 @@
+.first-name-box,
+.last-name-box{
+  font-size: 14px;
+  display:inline-block;
+  margin-bottom: 8px;
+  padding-left: 12px;
+  width: 120px;
+  height: 30px;
+  border-width: 1px;
+  border-radius: 6px;
+  box-shadow: 1px 1px 1px rgba(0,0,0, 0.1);
+  border-color: rgb(198, 197, 197);
+  border-style: solid;
+}
+
+.email-box{
+  display: block;
+  width: 260px;
+  font-size: 14px;
+  padding-left: 12px;
+  height: 30px;
+  border-width: 1px;
+  border-radius: 6px;
+  box-shadow: 1px 1px 1px rgba(0,0,0, 0.1);
+  border-color: rgb(198, 197, 197);
+  border-style: solid;
+  margin-bottom: 10px;
+}
+button{
+  width: 276px;
+  height: 45px;
+  color: white;
+  background-color: rgb(36, 107, 230);
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 16px;
+}

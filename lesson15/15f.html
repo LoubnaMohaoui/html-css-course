@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <style>
+      body{
+        height: 3000px;
+      }
+      .container{
+        display: inline-block;
+        position: relative;
+      }
+      .discount{
+        position: absolute;
+        right: 0;
+        top: 8px;
+        background-color: black;
+        color: white;
+        font-family: Arial;
+        font-size: 12px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        padding-left: 6px;
+        padding-right: 6px;
+      }
+      .zara-dress{
+        box-shadow: 0 0 4px rgba(0,0,0, 0.3);
+        width: 200px;
+        height: 300px;
+        object-fit: cover;
+      }
+      .bottom-overay{
+        background-color:rgba(255, 255, 255, 0.7);
+        height: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        bottom: 4px;
+        right: 0;
+        left: 0;
+      }
+      .add-to-cart{
+        border: 1.3px;
+        border-style: solid;
+        padding: 6px 10px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <img src="dress.jpg" class="zara-dress">
+      <div class="discount">
+        20% OFF
+      </div>
+      <div class="bottom-overay">
+        <button class="add-to-cart">
+          Add to Cart
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
